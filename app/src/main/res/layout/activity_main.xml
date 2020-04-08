@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <com.ydg.custvolumebar.CircleProgressBar
+        android:id="@+id/circle_bar"
+        android:layout_width="1000dp"
+        android:layout_height="400dp"
+
+        app:start_angle="135"
+        app:sweep_angle="270"
+        app:bar_width="6dp"
+
+        app:start_color="#00FF00"
+        app:mid_color="#FFFF00"
+        app:end_color="#FF0000"
+
+        app:bar_bg_color="#A0404040"
+        app:bar_bg_radius="93dp"
+
+        app:bg_radius1="112dp"
+        app:bg_radius2="90dp"
+        app:bg_radius3="80dp"
+
+        app:bg_color1="#8022222C"
+        app:bg_color2="#8060606C"
+        app:bg_color3="#8080808C"
+
+        app:text_size="34"
+        app:line_space="6"
+        />
+    <Button
+        android:id="@+id/button_inc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inc volume"
+        />
+    <Button
+        android:id="@+id/button_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dec volume"
+        />
+</LinearLayout>

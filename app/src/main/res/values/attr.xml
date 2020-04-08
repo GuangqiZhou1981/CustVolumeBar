@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+
+        <attr name ="bar_width" format="dimension"></attr>
+        <attr name="start_angle" format="float"></attr>
+        <attr name="sweep_angle" format="float"></attr>
+
+        <attr name="start_color" format="color"></attr>
+        <attr name="mid_color" format="color"></attr>
+        <attr name="end_color" format="color"></attr>
+        <attr name="bar_bg_color" format="color"></attr>
+
+        <attr name="bar_bg_radius" format="dimension"></attr>
+        <attr name="bg_radius1" format="dimension"></attr>
+        <attr name="bg_radius2" format="dimension"></attr>
+        <attr name="bg_radius3" format="dimension"></attr>
+
+        <attr name="bg_color1" format="color"></attr>
+        <attr name="bg_color2" format="color"></attr>
+        <attr name="bg_color3" format="color"></attr>
+
+        <attr name="text_size" format="float"></attr>
+        <attr name="line_space" format="float"></attr>
+
+    </declare-styleable>
+</resources>
